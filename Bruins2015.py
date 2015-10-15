@@ -13,7 +13,8 @@ import csv
 
 bruinsCSV = open('full.csv', 'rb')
 
-cnx = mysql.connector.connect(user='jstein', password='deffhalen123', database='Bruins2015', host='127.0.0.1')
+#fill in quotes with appropriate information
+cnx = mysql.connector.connect(user = ' ', password = ' ', host = ' ', database = ' ' )
 cursor = cnx.cursor()
 
 tomorrow = datetime.now().date() + timedelta(days=1)
