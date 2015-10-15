@@ -14,7 +14,7 @@ import csv
 bruinsCSV = open('full.csv', 'rb')
 
 #fill in quotes with appropriate information
-cnx = mysql.connector.connect(user = ' ', password = ' ', host = ' ', database = ' ' )
+cnx = mysql.connector.connect(user = ' ', password = ' ', host = ' ', database = 'Bruins2015' )
 cursor = cnx.cursor()
 
 tomorrow = datetime.now().date() + timedelta(days=1)
